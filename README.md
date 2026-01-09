@@ -1,8 +1,8 @@
-## 🚀 Full-Stack User Management App on Kubernetes
+# 🚀 Full-Stack User Management App on Kubernetes
 A complete full-stack application demonstrating all major Kubernetes components, deployed with TLS/HTTPS support using mkcert.
 
 
-### 📋 Table of Contents
+## 📋 Table of Contents
 - Overview
 - Architecture
 - Technologies Used
@@ -13,10 +13,14 @@ A complete full-stack application demonstrating all major Kubernetes components,
 - TLS/HTTPS Setup
 - Testing
 - Troubleshooting
-- Contributing
-- License
+- Cleanup
+- Learning Resources
+- Contributinh
+- Author
+- Acknowledgment
 
-### 🎯 Overview
+
+## 🎯 Overview
 This project demonstrates how to deploy a full-stack application on Kubernetes with:
 
 - Frontend: HTML/JavaScript user interface
@@ -27,7 +31,7 @@ This project demonstrates how to deploy a full-stack application on Kubernetes w
 
 Live Demo: https://jideka.com.ng (when deployed, use your own host name)
 
-### 🏗️ Architecture
+## 🏗️ Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -89,7 +93,7 @@ Live Demo: https://jideka.com.ng (when deployed, use your own host name)
 
 ```
 
-### 🛠️ Technologies Used
+## 🛠️ Technologies Used
 **Frontend**
 - HTML5, CSS3, JavaScript
 - Nginx (web server)
@@ -108,7 +112,7 @@ Live Demo: https://jideka.com.ng (when deployed, use your own host name)
 - Docker & Docker Compose
 - mkcert (for local TLS certificates)
 
-### 📦 Prerequisites
+## 📦 Prerequisites
 - Minikube (v1.30+)
 - kubectl (v1.27+)
 - Docker (v20.10+)
@@ -138,7 +142,7 @@ brew install mkcert
 mkcert -install
 ```
 
-### 🚀 Quick Start
+## 🚀 Quick Start
 **1. Clone the Repository**
 ```
 git clone https://github.com/your-username/user-management-k8s.git
@@ -233,7 +237,7 @@ Open your browser: https://jideka.com.ng  (replace with your own host name)
 
 
 
-### 📚 Detailed Setup
+## 📚 Detailed Setup
 
 **1. Backend Setup**
 ```
@@ -288,7 +292,7 @@ docker-compose up --build
 
 
 
-### ☸️ Kubernetes Components
+## ☸️ Kubernetes Components
 
 1. **Namespace (01-namespace.yml)**:
 Isolates all resources in the user-app namespace.
@@ -340,7 +344,7 @@ Stores TLS certificates for HTTPS:
 
 
 
-### 🔒 TLS/HTTPS Setup
+## 🔒 TLS/HTTPS Setup
 Why mkcert?
 mkcert creates locally-trusted development certificates without security warnings. Perfect for local Kubernetes development!
 
@@ -474,7 +478,7 @@ curl https://jideka.com.ng/api/stats
 ```
 
 
-### Testing
+## 🔧 Testing
 
 **Kubernetes Checks**
 
@@ -515,7 +519,7 @@ kubectl describe secret user-app-tls-secret -n user-app
 ```
 
 
-### 🐛 Troubleshooting
+## 🐛 Troubleshooting
 
 **📖 Learning Resources**
  [for details see](docs/TROUBLESHOOTING.md) 
@@ -531,7 +535,7 @@ kubectl describe secret user-app-tls-secret -n user-app
 
 
 
-### 🧹 Cleanup
+## 🧹 Cleanup
 
 **Delete all resources**
 ```
