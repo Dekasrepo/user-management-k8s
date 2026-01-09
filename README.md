@@ -11,6 +11,7 @@ A complete full-stack application demonstrating all major Kubernetes components,
 - Detailed Setup
 - Kubernetes Components
 - TLS/HTTPS Setup
+- Testing
 - Troubleshooting
 - Contributing
 - License
@@ -473,7 +474,9 @@ curl https://jideka.com.ng/api/stats
 ```
 
 
-**9. Kubernetes Checks**
+### Testing
+
+**Kubernetes Checks**
 
 - Check all resources
 ```
