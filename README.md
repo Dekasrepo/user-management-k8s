@@ -14,10 +14,10 @@ A complete full-stack application demonstrating all major Kubernetes components,
 - Testing
 - Troubleshooting
 - Cleanup
-- Learning Resources
-- Contributinh
-- Author
-- Acknowledgment
+  - Learning Resources
+  - Contributing
+  - Author
+  - Acknowledgment
 
 
 ## 🎯 Overview
